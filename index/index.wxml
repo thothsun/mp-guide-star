@@ -1,0 +1,20 @@
+<view class="container">
+  <view class='guide' wx-if='{{showGuide}}'>
+    <view class="guideSpace"></view>
+    <!-- 1376 × 316 -->
+    <image class='guideImage' src='../images/guide.png' bindtap='hideGuide'></image>
+  </view>
+
+  <view>
+    <text class="info">说明：用户前三次打开小程序，会显示引导组件，第四次及以后不再显示。可以根据需要自定义显示隐藏引导组件的逻辑。</text>
+  </view>
+
+
+  <view class="ad">
+    <image src="../images/qrcode.png"></image>
+  </view>
+
+  <view class="ad">
+    <image class="adImg" src="../images/font.jpeg" bindtap="onImgClick"></image>  
+  </view>
+</view>

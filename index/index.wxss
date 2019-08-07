@@ -1,0 +1,42 @@
+
+.container{
+  padding: 10%
+}
+
+.guide {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.guideSpace {
+  width: 340rpx;
+}
+
+.guideImage {
+  width: 344rpx;
+  height: 79rpx;
+}
+
+.info{
+  font-size: 12pt;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+.ad{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 24rpx;
+}
+
+.adImg{
+  border: green solid 2rpx;
+  border-radius: 10rpx;
+  width: 498rpx;
+  height: 207rpx;
+}
